@@ -3,14 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio
-    </title>
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>
-        PORTAFOLIO SLC
-    </h1>
 
-    <img src="jejekje - copia.jpg" alt="html">
+<div class="logo">PORTAFOLIO SANTIAGO LÓPEZ</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>  
+    </nav>
+  </header>
+
+  <!-- Sección Principal / Bienvenida -->
+  <section class="hero">
+    <h1>PORTAFOLIO 
+        </h1>
+    <p>Ilustrador digital y artista conceptual.</p>
+  </section>
+
+  <!-- Galería de Ilustraciones -->
+  <main id="galeria" class="gallery-section">
+    <h2>Mi Trabajo</h2>
+    <div class="gallery-grid">
+      <!-- Tarjeta 1 -->
+      <article class="gallery-item">
+        <img src="Lucia2 - copia.jpg" alt="Título de Ilustración 1" width="400">
+        <div class="overlay">
+          <h3>Título de la Obra 1</h3>
+          <p>Técnica / Software utilizado</p>
+        </div>
+      </article>
+
+      <!-- Tarjeta 2 -->
+      <article class="gallery-item">
+        <img  src="jejekje - copia.jpg" alt="Título de Ilustración 2" width="500">
+        <div class="overlay">
+          <h3>Título de la Obra 2</h3>
+          <p>Técnica / Software utilizado</p>
+        </div>
+      </article>
+
+      <!-- Tarjeta 3 -->
+      <article class="gallery-item">
+        <img src="Vivian hermosa - copia.jpg" alt="Título de Ilustración 3" width="400">
+        <div class="overlay">
+          <h3>Título de la Obra 3</h3>
+          <p>Técnica / Software utilizado</p>
+        </div>
+      </article>
+
+      
+    </div>
+  </main>
+
+  <!-- Sección Sobre mí -->
+  <section id="sobre-mi" class="about-section">
+    <div class="about-container">
+      
+      <div class="about-text">
+        <h2>Sobre mí</h2>
+        <p>Ilustrador mexicano. me gusta hacer arte conceptual y dibujos sobre videojuegos y series.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="contact-section">
+    <h2>Contacto</h2>
+    <p>¿Tienes algún proyecto en mente o te gustaría colaborar?</p>
+    <a href="mailto:tuemail@ejemplo.com" class="btn-contact">Envíame un correo</a>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <p>&copy; 2026 Tu Nombre. Todos los derechos reservados.</p>
+    <div class="socials">
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">ArtStation</a>
+      <a href="#" target="_blank">Behance</a>
+    </div>
+  </footer>
 </body>
 </html>
